@@ -3,7 +3,7 @@ import os
 
 # We assume text scraper and media fetcher are defined in other scripts
 def run_text_scraper():
-    os.system("python telegram-message-scraper.py")
+    os.system("python telegram_message_scraper.py")
 
 def run_media_fetcher():
     os.system("python telegram-media-scraper.py")
